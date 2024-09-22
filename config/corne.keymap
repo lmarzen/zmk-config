@@ -80,9 +80,9 @@
 // | F7  | F8  | F9  | F10 | F11 | F12 |   |     |     |     |     | ALT | ENT |
 //                   |CTRL | LWR | SPC |   | SPC | RSE |SUPER|
                         bindings = <
-   &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none  &none  &none  &none  &none     &kp BSPC
-   &kp DEL     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6          &none  &none  &none  &none  &none     &none
-   &kp LSHFT   &kp F8       &kp F9       &kp F10      &kp F11      &kp F12         &none  &none  &none  &none  &kp RALT  &kp RET
+   &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans     &kp BSPC
+   &kp DEL     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6          &trans  &trans  &trans  &trans  &trans     &trans
+   &kp LSHFT   &kp F8       &kp F9       &kp F10      &kp F11      &kp F12         &trans  &trans  &trans  &trans  &kp RALT  &kp RET
                                                    &kp LCTRL  &trans  &kp SPACE    &kp SPACE  &trans  &kp RGUI
                         >;
                 };
